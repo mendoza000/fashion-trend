@@ -17,7 +17,7 @@ import { ArrowDownIcon } from "@heroicons/vue/24/outline";
   </div> -->
   <NavBar />
   <div
-    class="flex flex-col-reverse items-center justify-center min-h-screen px-20 pt-20 lg:grid lg:grid-cols-2 bg-slate-200 lg:pt-0"
+    class="flex flex-col items-center justify-center min-h-screen px-20 pt-32 lg:grid lg:grid-cols-2 bg-slate-200 lg:pt-0"
   >
     <div class="z-10 flex flex-col gap-4">
       <!-- <p class="font-semibold opacity-60">
@@ -45,10 +45,17 @@ import { ArrowDownIcon } from "@heroicons/vue/24/outline";
       </button>
     </div>
 
-    <img
-      src="/tailor.svg"
-      alt="header-image"
-      class="min-w-[23rem] -mt-36 lg:-mt-0"
-    />
+    <div class="relative">
+      <img
+        src="/header.png"
+        alt="header-image"
+        class="relative z-10 mt-16 ml-auto lg:mt-0"
+      />
+      <div
+        class="absolute bottom-0 right-0 shadow-xl h-[80%] w-96 bg-gradient-to-tr to-purple-400 from-blue-400 rounded-xl rotate-6"
+      >
+        .
+      </div>
+    </div>
   </div>
 </template>
