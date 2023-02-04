@@ -6,7 +6,7 @@ interface ConfigSite {
   categorySelect: String;
 }
 
-const categoriesAvailables = ["all", "man", "woman", "shoes"];
+const categoriesAvailables = ["all", "man", "woman", "shoe"];
 
 export const useConfigSite = defineStore("config-site", () => {
   const configSite = reactive<ConfigSite>({

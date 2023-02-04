@@ -1,10 +1,16 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import router from "@/router";
+
+const goToHome = () => {
+  router.push("/");
+};
+</script>
 
 <template>
   <div
     class="fixed z-20 flex items-center justify-between min-w-full px-5 py-4 shadow-xl bg-slate-200"
   >
-    <div class="flex items-center gap-2 cursor-pointer">
+    <div class="flex items-center gap-2 cursor-pointer" @click="goToHome()">
       <img src="/pulpo.png" alt="logo" class="w-9 h-9" />
       <span class="text-xl font-bold">FashionTrend</span>
     </div>

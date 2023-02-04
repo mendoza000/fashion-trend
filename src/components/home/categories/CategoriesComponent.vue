@@ -12,7 +12,7 @@ import CategoryCart from "./CategoryCart.vue";
       <CategoryCart :title="'Todos los productos'" :id="'all'" />
       <CategoryCart :title="'Hombres'" :id="'man'" />
       <CategoryCart :title="'Mujeres'" :id="'woman'" />
-      <CategoryCart :title="'Zapatos'" :id="'shoes'" />
+      <CategoryCart :title="'Zapatos'" :id="'shoe'" />
     </div>
   </div>
 </template>
