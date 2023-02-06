@@ -9,11 +9,26 @@ import FooterComponent from "@/components/ui/FooterComponent.vue";
 </script>
 
 <template>
-  <HeaderComponent />
-  <CategoriesComponent />
-  <ProductList />
-  <CuponComponent />
-  <FaqComponent />
-  <ServicesComponent />
-  <FooterComponent />
+  <TransitionGroup name="fade" tag="div">
+    <HeaderComponent />
+    <CategoriesComponent />
+    <ProductList />
+    <CuponComponent />
+    <FaqComponent />
+    <ServicesComponent />
+    <FooterComponent />
+  </TransitionGroup>
 </template>
+
+<style>
+/* we will explain what these classes do next! */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s linear;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

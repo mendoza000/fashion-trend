@@ -10,6 +10,7 @@ import {
 <template>
   <div
     class="flex flex-col items-center justify-center gap-16 px-10 lg:px-20 py-36 bg-violet-500"
+    id="services"
   >
     <h2 class="text-4xl font-bold text-white">Servicios</h2>
 

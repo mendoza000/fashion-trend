@@ -15,32 +15,43 @@ const goToHome = () => {
       <span class="text-xl font-bold">FashionTrend</span>
     </div>
 
-    <div class="hidden gap-5 md:flex">
-      <button
+    <div class="hidden gap-5 md:flex text-center">
+      <a
+        href="#"
         class="hover:bg-purple-400 min-w-[6rem] py-2 font-semibold duration-200 rounded-lg shadow-md"
       >
         Incio
-      </button>
-      <button
+      </a>
+      <a
+        href="#categories"
         class="hover:bg-purple-400 min-w-[6rem] py-2 font-semibold duration-200 rounded-lg shadow-md"
       >
         Productos
-      </button>
-      <button
+      </a>
+      <a
+        href="#faq"
         class="hover:bg-purple-400 min-w-[6rem] py-2 font-semibold duration-200 rounded-lg shadow-md"
       >
         FAQ
-      </button>
-      <button
+      </a>
+      <a
+        href="#services"
         class="hover:bg-purple-400 min-w-[6rem] py-2 font-semibold duration-200 rounded-lg shadow-md"
       >
         Servicios
-      </button>
-      <button
+      </a>
+      <a
+        href="#blog"
         class="hover:bg-purple-400 min-w-[6rem] py-2 font-semibold duration-200 rounded-lg shadow-md"
       >
         Blog
-      </button>
+      </a>
     </div>
   </div>
 </template>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

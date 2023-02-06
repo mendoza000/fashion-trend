@@ -5,6 +5,7 @@ import FaqCard from "./FaqCard.vue";
 <template>
   <div
     class="flex flex-col items-center justify-center gap-10 px-10 py-20 lg:px-20"
+    id="faq"
   >
     <h2 class="text-4xl font-bold">Preguntas frecuentes</h2>
 

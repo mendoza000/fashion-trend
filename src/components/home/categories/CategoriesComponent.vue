@@ -3,7 +3,7 @@ import CategoryCart from "./CategoryCart.vue";
 </script>
 
 <template>
-  <div class="flex flex-col gap-5 py-20 lg:px-20">
+  <div class="flex flex-col gap-5 py-20 lg:px-20" id="categories">
     <h2 class="px-20 text-3xl font-bold lg:px-0">Categorias</h2>
 
     <div
